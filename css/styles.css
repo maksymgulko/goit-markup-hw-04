@@ -143,6 +143,7 @@ ul {
   display: flex;
   align-items: center;
   gap: 40px;
+  /* position: relative; */
 }
 
 .nav-link {
@@ -152,6 +153,19 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  position: relative;
+}
+
+.nav-link:hover::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1px;
 }
 
 .contact {
