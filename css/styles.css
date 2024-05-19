@@ -251,6 +251,10 @@ ul {
   padding: 32px 0;
 }
 
+.socials {
+  margin-bottom: 32px;
+}
+
 .social-list {
   display: flex;
   align-items: center;
