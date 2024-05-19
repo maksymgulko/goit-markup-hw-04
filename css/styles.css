@@ -187,7 +187,8 @@ ul {
   padding: 120px 0;
 }
 
-.main-section-two .section-heading {
+.main-section-two .section-heading,
+.team-text {
   margin-bottom: 8px;
 }
 
